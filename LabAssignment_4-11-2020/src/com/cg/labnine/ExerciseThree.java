@@ -7,7 +7,7 @@ public class ExerciseThree
 		Map<Integer,Integer> map = new HashMap<Integer, Integer>();
 		for(int i=0;i<array.length;i++) 
 		{
-			map.put(array[i], (int) Math.pow(array[i], 2));
+			map.put(array[i], (int) Math.pow(array[i], 2));//to get the power of the value
 		}
 		return map;
 	}

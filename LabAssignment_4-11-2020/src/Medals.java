@@ -13,6 +13,7 @@ public class Medals
               Set<String> set = student.keySet();
               for(String s:set)
               {
+            	  //providing control conditions to decide the medal type
                      Integer marks = student.get(s);
                      if(marks>=90)
                      {
@@ -33,11 +34,11 @@ public class Medals
        {
               HashMap<String,Integer> student = new HashMap<>();
               Medals m = new Medals();
-              student.put("R123",65);//hardcoded input
-              student.put("R124",76);
-              student.put("R125",89);
-              student.put("R126",90);
-              student.put("R127",93);
+              student.put("student1",60);//hardcoded input
+              student.put("student2",20);
+              student.put("student3",90);
+              student.put("student4",70);
+              student.put("student5",80);
               System.out.println(m.getStudent(student));
        }
 }

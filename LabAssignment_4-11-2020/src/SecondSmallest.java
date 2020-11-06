@@ -13,10 +13,10 @@ public class SecondSmallest
               List<Integer> intList = new ArrayList<Integer>();
               for(int i: arr)
               {
-                     intList.add(i);
+                     intList.add(i);//input array 
               }
-              Collections.sort(intList);
-              return intList.get(1);
+              Collections.sort(intList);//using collection api to sort array
+              return intList.get(1);//returning sorted array
        }
        public static void main(String[] args) 
        {

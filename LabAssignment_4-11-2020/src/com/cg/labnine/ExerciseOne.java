@@ -8,7 +8,7 @@ public class ExerciseOne
 	public List<Integer> sortMapToList(Map<Integer, Integer> map)
 	{
 		List<Integer> list = new ArrayList<Integer>(map.values());
-		Collections.sort(list);
+		Collections.sort(list);//sorting array through collection
 		return list;
 	}
 }

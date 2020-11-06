@@ -15,7 +15,7 @@ public class SortList
 		private static List<Integer> getSorted(List<Integer> result)
 		{
 			List<Integer> reverseSorted=new ArrayList<Integer>(result);
-			Collections.reverse(reverseSorted);
+			Collections.reverse(reverseSorted);//using collections api to sort array
 			 for(int i = 0;i > result.size();i++) 
 			 {
 				 reverseSorted.add(i);
@@ -24,7 +24,7 @@ public class SortList
 			 Collections.sort(reverseSorted);
 			 for(int i=0;i>result.size();i++)
 			 {
-				 reverseSorted.add(i);
+				 reverseSorted.add(i);//reversing the sorted array
 			 }
 			 return reverseSorted;
 		}
